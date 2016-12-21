@@ -1,1 +1,1 @@
-wicketでfullcalendar書いてみた.
+wicketでfullcalendar書いてみた
