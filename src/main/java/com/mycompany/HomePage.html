@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+	<head>
+		<meta charset="utf-8" />
+		<title>wicket fullcalendar</title>
+		<style type="text/css">
+			body {
+				font-family: 'Bookman Old Style';
+			}
+
+			.flexiblebox {
+				 display: -webkit-flex;
+				 display: flex;
+				 -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+				 align-items: center; /* 縦方向中央揃え */
+				 -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+				 justify-content: center; /* 横方向中央揃え */
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="flexiblebox" style="width:100%; height:70px; background-color:#DA5019; color:white; text-align:center; margin-bottom:10px;">
+			<h1>wicket fullcalendar</h1>
+		</div>
+
+		<div wicket:id="fullCalendarPanel"></div>
+
+	</body>
+</html>
